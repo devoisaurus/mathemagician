@@ -28,6 +28,7 @@ namespace MathMagician
             {
                 Console.WriteLine("I'm sorry, that's not a number type I recognize. Press any key to exit."); //Displays message to user
                 Console.ReadKey();
+                Environment.Exit(0);
             }
            
 
@@ -37,7 +38,7 @@ namespace MathMagician
             {
                 Console.WriteLine("I'm sorry, I can only print between 1 and 30 numbers. Press any key to exit."); //Displays message to user
                 Console.ReadKey();
-                
+                Environment.Exit(0);
             }
            
 
